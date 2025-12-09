@@ -12,6 +12,11 @@ export const metadata: Metadata = {
   keywords:
     'trucking, logistics, collaboration, dispatch, geofence, document management, fleet management',
   authors: [{ name: 'Dispatchar Team' }],
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 1,
+  },
   openGraph: {
     title: 'Dispatchar - Trucking & Logistics Collaboration Platform',
     description:
